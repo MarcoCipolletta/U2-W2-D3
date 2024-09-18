@@ -293,6 +293,7 @@ header ul li a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  height: 430px;
 }
 .hero .hero-up {
   display: flex;
@@ -308,12 +309,86 @@ header ul li a {
   font-size: 3rem;
   text-align: center;
   margin-bottom: 1rem;
+  animation: hero-title 1s ease-in-out 0s both;
+}
+@keyframes hero-title {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 .hero .hero-up .hero-text p {
   font-size: 1.25rem;
+  animation: hero-description 1s ease-in-out 0.3s both;
+}
+@keyframes hero-description {
+  from {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+.hero .hero-up img {
+  animation: hero-img 0.7s ease-in-out 0.3s both;
+}
+@keyframes hero-img {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 .hero .hero-buttons {
   margin-top: 2rem;
+}
+.hero .hero-buttons button:nth-of-type(1) {
+  animation: hero-btn1 1s ease-in-out 0.4s both;
+}
+@keyframes hero-btn1 {
+  from {
+    opacity: 0;
+    transform: translateY(-60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+.hero .hero-buttons button:nth-of-type(2) {
+  animation: hero-btn2 1s ease-in-out 0.5s both;
+}
+@keyframes hero-btn2 {
+  from {
+    opacity: 0;
+    transform: translateY(-60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+.hero .hero-buttons button:nth-of-type(3) {
+  animation: hero-btn3 1s ease-in-out 0.6s both;
+}
+@keyframes hero-btn3 {
+  from {
+    opacity: 0;
+    transform: translateY(-60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 
 .grid {
