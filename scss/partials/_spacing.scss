@@ -1,0 +1,29 @@
+$spacing-sizes: (
+  "0": 0,
+  "sm": 0.25rem,
+  "normal": 0.5rem,
+  "md": 0.75rem,
+  "g": 1rem,
+  "x": 1.5rem,
+  "xxl": 2rem
+);
+
+$spacing-directions: (
+  "y": "block",
+  "x": "inline"
+);
+
+$spacing: (
+  "m": "margin",
+  "p": "padding"
+);
+
+@each $spacer, $value-spacer in $spacing {
+  @each $direction, $value-dir in $spacing-directions {
+    @each $size, $value in $spacing-sizes {
+      .#{$spacer}#{$direction}-#{$size} {
+        #{$value-spacer}-#{$value-dir}: $value;
+      }
+    }
+  }
+}

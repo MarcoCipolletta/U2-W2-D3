@@ -1,0 +1,317 @@
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:wght,BNCE,INFM,SPAC@300..800,-100..100,0..100,0..100&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  -webkit-text-size-adjust: none;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Shantell Sans", cursive;
+}
+
+.btn-primary {
+  background-color: #0e6cff;
+  color: #f4f4f4;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 0.75rem;
+}
+
+.btn-secondary {
+  background-color: #ff8700;
+  color: #f4f4f4;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 0.75rem;
+}
+
+.btn-success {
+  background-color: #4caf50;
+  color: #f4f4f4;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  font-size: 0.75rem;
+}
+
+.my-0 {
+  margin-block: 0;
+}
+
+.my-sm {
+  margin-block: 0.25rem;
+}
+
+.my-normal {
+  margin-block: 0.5rem;
+}
+
+.my-md {
+  margin-block: 0.75rem;
+}
+
+.my-g {
+  margin-block: 1rem;
+}
+
+.my-x {
+  margin-block: 1.5rem;
+}
+
+.my-xxl {
+  margin-block: 2rem;
+}
+
+.mx-0 {
+  margin-inline: 0;
+}
+
+.mx-sm {
+  margin-inline: 0.25rem;
+}
+
+.mx-normal {
+  margin-inline: 0.5rem;
+}
+
+.mx-md {
+  margin-inline: 0.75rem;
+}
+
+.mx-g {
+  margin-inline: 1rem;
+}
+
+.mx-x {
+  margin-inline: 1.5rem;
+}
+
+.mx-xxl {
+  margin-inline: 2rem;
+}
+
+.py-0 {
+  padding-block: 0;
+}
+
+.py-sm {
+  padding-block: 0.25rem;
+}
+
+.py-normal {
+  padding-block: 0.5rem;
+}
+
+.py-md {
+  padding-block: 0.75rem;
+}
+
+.py-g {
+  padding-block: 1rem;
+}
+
+.py-x {
+  padding-block: 1.5rem;
+}
+
+.py-xxl {
+  padding-block: 2rem;
+}
+
+.px-0 {
+  padding-inline: 0;
+}
+
+.px-sm {
+  padding-inline: 0.25rem;
+}
+
+.px-normal {
+  padding-inline: 0.5rem;
+}
+
+.px-md {
+  padding-inline: 0.75rem;
+}
+
+.px-g {
+  padding-inline: 1rem;
+}
+
+.px-x {
+  padding-inline: 1.5rem;
+}
+
+.px-xxl {
+  padding-inline: 2rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #851afe;
+  border-bottom: 2px solid #330766;
+}
+header ul {
+  display: flex;
+  gap: 25px;
+}
+header ul li {
+  list-style: none;
+}
+header ul li a {
+  text-decoration: none;
+  color: #f4f4f4;
+}
+
+.hero {
+  background-color: #640fc5;
+  color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hero .hero-up {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hero .hero-up .hero-text {
+  max-width: 400px;
+}
+.hero .hero-up .hero-text h1 {
+  color: #f4f4f4;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.hero .hero-up .hero-text p {
+  font-size: 1.25rem;
+}
+.hero .hero-buttons {
+  margin-top: 2rem;
+}/*# sourceMappingURL=style.css.map */

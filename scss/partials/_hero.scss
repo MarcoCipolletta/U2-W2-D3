@@ -1,0 +1,25 @@
+.hero {
+  background-color: $bg-hero;
+  color: $text-color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .hero-up {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .hero-text {
+      max-width: 400px;
+      h1 {
+        @include title-big;
+      }
+      p {
+        font-size: $font-size-lg;
+      }
+    }
+  }
+  .hero-buttons {
+    margin-top: 2rem;
+  }
+}

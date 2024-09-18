@@ -1,0 +1,18 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #851afe;
+  border-bottom: 2px solid #330766;
+  ul {
+    display: flex;
+    gap: 25px;
+    li {
+      list-style: none;
+      a {
+        text-decoration: none;
+        color: $text-color;
+      }
+    }
+  }
+}
