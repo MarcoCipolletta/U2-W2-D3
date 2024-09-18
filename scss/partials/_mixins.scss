@@ -4,12 +4,14 @@
   box-shadow: $shadow;
 }
 
-@mixin grid($columns) {
+@mixin grid($columns: 2) {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 20px;
 
   & > * {
-    flex: 1 1 calc(100% / #{$columns});
-    max-width: (100% / #{$columns});
+    flex: 1 1 calc(100% / #{$columns} - 30px);
+    max-width: calc(100% / #{$columns} - 30px);
   }
 }
