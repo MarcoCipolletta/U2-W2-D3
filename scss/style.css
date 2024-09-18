@@ -338,7 +338,7 @@ header ul li a {
 .hero .hero-up img {
   border-radius: 10px;
   border: 3px solid #ffeaea;
-  box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2117647059);
+  box-shadow: 1px 2px 15px -3px #000000;
   animation: hero-img 1s ease-in-out 0s both;
 }
 @keyframes hero-img {

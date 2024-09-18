@@ -22,7 +22,7 @@
       }
     }
     img {
-      @include floating(3px solid #ffeaea);
+      @include floating(3px solid #ffeaea, 1px 2px 15px -3px #000000);
       @include onStart(hero-img, 1s, -20px, 0px, 0s);
     }
   }
