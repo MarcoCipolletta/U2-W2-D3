@@ -14,16 +14,16 @@
       max-width: 400px;
       h1 {
         @include title-big;
-        @include onStart(hero-title, 1s, -30px, 0px, 0s);
+        @include onStart(hero-title, 1.5s, -30px, 0px, 0.7s);
       }
       p {
         font-size: $font-size-lg;
-        @include onStart(hero-description, 1s, -50px, 0px, 0.3s);
+        @include onStart(hero-description, 1s, -50px, 0px, 1s);
       }
     }
     img {
       @include floating(3px solid #ffeaea);
-      @include onStart(hero-img, 0.7s, -20px, 0px, 0.3s);
+      @include onStart(hero-img, 1s, -20px, 0px, 0s);
     }
   }
   .hero-buttons {
