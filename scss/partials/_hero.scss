@@ -22,6 +22,7 @@
       }
     }
     img {
+      @include floating(3px solid #ffeaea);
       @include onStart(hero-img, 0.7s, -20px, 0px, 0.3s);
     }
   }

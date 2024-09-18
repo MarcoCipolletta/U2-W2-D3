@@ -3,10 +3,37 @@
   @include grid(3);
   & > div {
     height: 200px;
-    img {
-      object-fit: cover;
-      width: 100%;
-      height: 100%;
+    &:nth-of-type(1) {
+      img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        @include floating(none, 2px 5px 10px #000540);
+      }
+    }
+    &:nth-of-type(2) {
+      img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        @include floating(none, 3px 2px 7px #293082);
+      }
+    }
+    &:nth-of-type(3) {
+      img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        @include floating(none, 6px 4px 20px #ff0540);
+      }
+    }
+    &:nth-of-type(4) {
+      img {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        @include floating(none, 9px 3px 3px #00f540);
+      }
     }
   }
 }
